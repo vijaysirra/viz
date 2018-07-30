@@ -8,10 +8,10 @@
   <name>webdemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-  <site>
+  <repository>
     <id>newrepo</id>
     <url>http://localhost:8081/nexus/content/sites/newrepo</url>
-  </site>
+  </repository>
 </distributionManagement>
   <dependencies>
     <dependency>
