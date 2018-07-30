@@ -7,6 +7,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>webdemo Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+  <site>
+    <id>newrepo</id>
+    <url>http://localhost:8081/nexus/content/sites/newrepo</url>
+  </site>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
